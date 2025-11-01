@@ -1,0 +1,14 @@
+{
+  "name": "defi-strategies",
+  "version": "1.0.0",
+  "description": "A collection of DeFi strategies implemented without external datasets. Each strategy module can be run independently to monitor for opportunities and, when profitable, submit a transaction to capture value.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ethers": "^6.7.0",
+    "dotenv": "^16.0.0"
+  }
+}
